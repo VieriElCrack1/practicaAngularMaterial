@@ -5,6 +5,7 @@ import {FormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [],
@@ -14,7 +15,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatFormFieldModule, 
     MatInputModule, 
     FormsModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule
   ]
 })
 export class ModuleModule { }
